@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f6fdfe;
+}
+.container{
+    width: 70%;
+    background-color: #ff5200;
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+form input[type="text"]{
+    border: 0;
+    outline: 0;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-right: 60px;
+    text-transform: capitalize;
+    font-size: 15px;
+    position: relative;
+}
+form input[type="submit"]{
+    position: absolute;
+    border: 0;
+    outline: 0;
+    padding: 13px 20px;
+    border-radius: 30px;
+    background: #000;
+    color: #fff;
+    transform: translateX(-55px);
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+form h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+form h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.contact-information h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+b.social-link h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.social-link i {
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.social-link i:hover{
+    background-color: #fff;
+    color: #000;
+}
+.social-link h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+form p {
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-weight: 400;
+}
